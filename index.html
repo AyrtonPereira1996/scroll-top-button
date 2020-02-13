@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="_css/bootstrap.css">
+    <link rel="stylesheet" href="_fontawesome/css/all.css">
+
+    <style>
+        button#btnScrollToTop {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: chartreuse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+            color: white;
+            cursor: pointer;
+            outline: none;
+            border: none;
+        }
+        
+        button#btnScrollToTop:active {
+            background-color: rgb(65, 131, 0);
+        }
+        
+        .btnEntrance {
+            animation-duration: 0.5s;
+            animation-fill-mode: both;
+            animation-name: btnEntrance;
+        }
+        
+        @keyframes btnEntrance {
+            from {
+                opacity: 0;
+                transform: scale3d(0.3, 0.3, 0.3);
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .btnExit {
+            animation-duration: 0.25s;
+            animation-fill-mode: both;
+            animation-name: btnExit;
+        }
+        
+        @keyframes btnExit {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+                transform: scale3d(0.3, 0.3, 0.3);
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1 style="color: brown; font-weight: bold;">Scroll To Top Button</h1>
+    <hr> <button id="btnScrollToTop">
+    <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <div class="p-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti saepe delectus, quam similique obcaecati explicabo incidunt cum omnis voluptatem! Magnam aspernatur ex tempore veritatis perspiciatis eveniet eos laboriosam doloremque, enim cum
+            molestias dolore quod architecto maiores odio explicabo vitae. Esse, eius officiis atque labore ipsum praesentium necessitatibus aliquam ut ab accusamus animi laborum aut neque quae aliquid harum ullam, omnis voluptatum reprehenderit pariatur
+            fugit quia. Quibusdam dolores beatae eaque laboriosam sunt facere laborum sint, officia eligendi. Distinctio mollitia odit quasi minus voluptatum possimus illo. Ea ab impedit provident repellat placeat cum? Fuga quaerat, repellat atque dicta
+            cum aperiam a praesentium!</p>
+        <p>Perspiciatis facilis atque mollitia quaerat asperiores, maiores rem? Nesciunt quas non praesentium pariatur fugit placeat incidunt aliquid inventore rem, eaque recusandae minima ipsa ex consequatur accusantium dicta architecto autem unde et cupiditate
+            magni? Aspernatur ipsum blanditiis adipisci autem iste nesciunt sed, obcaecati, cum, laborum dignissimos ullam. Quibusdam voluptate dolorem exercitationem cupiditate necessitatibus consectetur temporibus quisquam impedit quae animi reprehenderit,
+            rem vel quis saepe illum nulla doloremque nemo in, laborum iusto! Esse aut saepe ea aliquid dolores, praesentium possimus quisquam veniam qui nihil. Voluptas nostrum laboriosam dolore quo nobis? Nobis quaerat autem quos esse? Sint consequatur
+            beatae atque reiciendis labore nobis?</p>
+        <p>Non est impedit, hic, et consectetur libero delectus earum natus a ex dolor exercitationem modi nesciunt ea eum. Recusandae doloremque eius a eveniet. Alias similique architecto animi incidunt. Provident, illum vitae laboriosam quaerat suscipit
+            obcaecati quam deserunt iste ipsa odio, voluptatum, quidem at commodi corrupti! Consequuntur consequatur ea, molestiae dolore, dolorum explicabo aspernatur sint mollitia fugiat dicta dignissimos voluptatem assumenda ducimus minima officiis
+            atque consectetur, fugit exercitationem porro iure voluptate. Placeat odio sit eos similique quisquam inventore ullam expedita libero obcaecati, quod nihil consectetur excepturi! Animi quo minus doloremque quas sed excepturi, voluptatem veritatis?
+            Ipsum officiis expedita ex voluptatem. Ducimus.</p>
+        <p>Voluptate atque laudantium dolor culpa commodi voluptatem cupiditate veniam blanditiis obcaecati eveniet similique laboriosam ullam adipisci architecto enim facere, magnam provident et eligendi cumque! Alias fugiat saepe neque facere modi odit
+            facilis rem consequatur. Veritatis et consectetur quisquam veniam atque, asperiores, voluptates, id explicabo aut officia corporis itaque libero ullam. Quod ipsa quia, nihil laboriosam ipsum ea! Temporibus dolorem distinctio inventore, atque
+            odio quos quisquam ad eum ducimus nulla incidunt aspernatur molestiae! Cupiditate similique expedita voluptas cum perferendis itaque quos quaerat, laboriosam praesentium voluptatibus nemo fugiat impedit quis veniam explicabo ratione hic animi
+            asperiores commodi delectus error et excepturi harum!</p>
+        <p>Libero mollitia asperiores assumenda deleniti, saepe dolorem distinctio obcaecati a fugiat temporibus excepturi animi fuga, ab nobis autem laboriosam, cumque iste reiciendis ipsum dicta nemo quos similique voluptas. Provident quo, assumenda ipsum
+            voluptatum quidem ex vero blanditiis distinctio delectus voluptas! Tempore repellendus doloremque quis, sequi voluptatem cumque tempora harum provident nihil ex quia autem odio aspernatur architecto. Laborum saepe assumenda aperiam! Nesciunt,
+            nulla nostrum mollitia praesentium dolor eligendi rerum quo facere? Iusto molestias dolorum illo totam repudiandae similique error deleniti labore nemo amet hic beatae, modi sequi praesentium accusamus reprehenderit eveniet non magni. Minima,
+            commodi nobis dolor aspernatur at ex?</p>
+        <p>Deleniti sed aut voluptatibus numquam pariatur quam possimus atque explicabo facere consequuntur aliquam hic accusamus odio aperiam commodi voluptate consequatur, non sit enim minima tempora libero a porro. Quae culpa consectetur inventore voluptas
+            illum officiis rem, quibusdam dolor architecto sed error iure, sunt hic odit perspiciatis ipsam libero tempora voluptatum id. Dolorem quas dicta velit autem animi provident culpa suscipit consectetur quos tenetur quam reiciendis iste, minima
+            atque porro, sapiente eum fugiat vel? Iste esse asperiores, animi quibusdam minus ex, inventore dicta ad aliquam soluta similique quia in odio doloremque ea laboriosam voluptate quaerat? Id, qui. Inventore officia error illum!</p>
+        <p>Commodi quasi assumenda explicabo ut nostrum minus, soluta officiis ex aspernatur sunt incidunt accusantium aut obcaecati reiciendis quod. Sequi aspernatur delectus voluptatem consequatur provident. Itaque voluptas vel repudiandae eum minus officia
+            repellat, mollitia maxime. Temporibus nam ex mollitia dolor, omnis voluptas accusamus impedit. Dolorem soluta quidem eum, ducimus, dolorum dignissimos explicabo quae aliquam quis veniam qui, non corporis. Nam odit reprehenderit adipisci molestias
+            doloremque asperiores minus voluptatibus culpa ipsam, sed, dicta totam expedita illum, numquam deleniti! Cumque sequi magnam ratione obcaecati temporibus, error nisi corrupti itaque. Asperiores temporibus, vel dolores nam numquam laudantium
+            voluptatibus voluptatem consequatur distinctio. Perferendis, vel libero?</p>
+        <p>Voluptatem placeat harum, eaque nesciunt quasi rerum ab repellendus, esse aliquam dolorum doloremque, dicta fuga nostrum alias provident hic qui tempore nulla sint! Distinctio voluptate blanditiis esse ab quidem magnam corrupti sunt doloremque!
+            Sed magnam sapiente ipsa soluta quasi quos exercitationem ad doloremque repellat commodi architecto error excepturi adipisci sunt quaerat deleniti eos mollitia, magni similique autem! Nesciunt, eaque aperiam reiciendis, voluptatum, nihil repellat
+            sequi quisquam harum commodi animi nostrum. Qui, quis explicabo in eveniet corrupti sint quo accusamus libero inventore modi sit mollitia repudiandae! Fugit corrupti nihil inventore expedita quis? Fugiat quo vel nemo, quibusdam ipsam maiores
+            rerum quam.</p>
+        <p>Magnam, unde. Necessitatibus molestias, eaque laudantium ex totam itaque labore sunt sequi fugit corrupti! Eius, officiis? Quibusdam cupiditate eveniet in sed ad harum adipisci rerum, ducimus vel distinctio veniam optio, eum corporis sit suscipit
+            fuga aliquid. Eum vel delectus inventore nemo minus deleniti fuga, corporis, iste consequuntur nobis dicta laborum distinctio repellendus eaque deserunt. Sed esse repellat illum quas, dignissimos officia veniam repellendus voluptatibus ullam
+            omnis pariatur natus id impedit aspernatur reiciendis voluptatum possimus. Eos dolores repellat facere maiores voluptatum quibusdam aspernatur temporibus, minima et, modi quidem atque error reprehenderit dignissimos. Repudiandae eum voluptates,
+            distinctio labore voluptas molestiae tempore quas.</p>
+        <p>Eos quia voluptatum vel facere minus nesciunt delectus, cumque necessitatibus corporis eius sed ratione quas voluptates voluptas eum voluptatibus sequi consequatur fugit beatae iste. Ducimus magnam sapiente optio, dolor culpa possimus repudiandae
+            pariatur architecto laboriosam doloribus voluptatibus? Earum, repellendus placeat. Consequatur qui hic natus nemo quidem vero at tempora a, quibusdam accusantium doloribus sint saepe cum necessitatibus odit quisquam porro, repellendus illum
+            aspernatur debitis corporis dolores et, asperiores ipsa. Possimus quod, ipsam tempora dolorum inventore dolor recusandae delectus voluptates porro. Provident ipsam recusandae distinctio non asperiores mollitia, hic repudiandae enim quisquam
+            laboriosam officia est reiciendis quae culpa nobis iusto natus!</p>
+    </div>
+
+    <script>
+        const btnScrollToTop = window.document.querySelector("#btnScrollToTop");
+
+        window.addEventListener("scroll", scrollFunction);
+
+        function scrollFunction() {
+            if (window.pageYOffset > 300) {
+                if (!btnScrollToTop.classList.contains("btnEntrance")) {
+                    btnScrollToTop.classList.add("btnEntrance");
+                    btnScrollToTop.classList.remove("btnExit")
+                    btnScrollToTop.style.display = "block"; //to show the button
+                }
+
+            } else {
+                if (btnScrollToTop.classList.contains("btnEntrance")) {
+                    btnScrollToTop.classList.add("btnExit");
+                    btnScrollToTop.classList.remove("btnEntrance");
+                    setTimeout(function() {
+                        btnScrollToTop.style.display = "none";
+                    }, 250)
+
+                }
+
+            }
+
+        }
+
+        btnScrollToTop.addEventListener("click", function() {
+
+            //     // scrollTo(x,y)
+            //     // window.scrollTo(0, 0)
+
+            //     // window.scrollTo({
+            //     //    left: 0,
+            //     //    top: 0,
+            //     //    behavior: "smooth"
+            //     // })
+
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+
+        })
+    </script>
+
+    <script src="_js/jquery.js"></script>
+    <script src="_js/bootstrap.js"></script>
+</body>
+
+</html>
